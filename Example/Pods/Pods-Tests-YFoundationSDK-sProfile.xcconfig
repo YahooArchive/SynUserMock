@@ -1,0 +1,2 @@
+PODS_TESTS_YFOUNDATIONSDK_SPROFILE_HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/YFoundationSDK-sProfile"
+PODS_TESTS_YFOUNDATIONSDK_SPROFILE_OTHER_LDFLAGS = -framework Foundation -framework SystemConfiguration

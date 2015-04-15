@@ -1,0 +1,1362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0448CD6319AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448CD6219AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.m */; };
+		0448CD6719AC5005005C4BDE /* SNBStateTransactionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448CD6619AC5005005C4BDE /* SNBStateTransactionItem.m */; };
+		0448CD6A19AC5D41005C4BDE /* transaction.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0448CD6919AC5D41005C4BDE /* transaction.xml */; };
+		0448CD6D19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448CD6C19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.m */; };
+		0448CD7119ACD830005C4BDE /* NSURLConnection+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448CD7019ACD830005C4BDE /* NSURLConnection+SNB.m */; };
+		044BC07219987E980038BC3B /* SNBPDFSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BC07119987E980038BC3B /* SNBPDFSaver.m */; };
+		044BC07919988ED80038BC3B /* SNBStateDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BC07819988ED80038BC3B /* SNBStateDataItem.m */; };
+		044BC07E1998A04E0038BC3B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BC07C1998A04E0038BC3B /* SecondViewController.m */; };
+		044BC07F1998A04E0038BC3B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044BC07D1998A04E0038BC3B /* SecondViewController.xib */; };
+		044DC79719B8D52A00FB0FB2 /* icn_bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 044DC79619B8D52A00FB0FB2 /* icn_bug.png */; };
+		044DC79D19B8D57C00FB0FB2 /* HFDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DC79A19B8D57C00FB0FB2 /* HFDraggableView.m */; };
+		044DC79E19B8D57C00FB0FB2 /* HFDraggableView+BugImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DC79C19B8D57C00FB0FB2 /* HFDraggableView+BugImage.m */; };
+		044DC7A119B8D59300FB0FB2 /* HFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DC7A019B8D59300FB0FB2 /* HFImageView.m */; };
+		0464B0FD1A362B0B00E942EA /* SNBExternalSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464B0FC1A362B0B00E942EA /* SNBExternalSaver.m */; };
+		0464B1011A362F1700E942EA /* SNBExternalBugSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464B1001A362F1700E942EA /* SNBExternalBugSaver.m */; };
+		047E9C7519981FBB0032C522 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C7319981FBB0032C522 /* MainMenuViewController.m */; };
+		047E9C7619981FBB0032C522 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047E9C7419981FBB0032C522 /* MainMenuViewController.xib */; };
+		047E9C7919981FC90032C522 /* YOHiveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C7819981FC90032C522 /* YOHiveAppDelegate.m */; };
+		047E9C80199820B40032C522 /* SNBStateSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C7F199820B40032C522 /* SNBStateSaver.m */; };
+		047E9C86199821060032C522 /* SNBStateDataStoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C85199821060032C522 /* SNBStateDataStoryBoard.m */; };
+		047E9C8B199821280032C522 /* SynUserMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C89199821280032C522 /* SynUserMock.m */; };
+		047E9C8F1998217E0032C522 /* SNBIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C8E1998217E0032C522 /* SNBIntercept.m */; };
+		047E9C931998219C0032C522 /* HVUIControl+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C921998219C0032C522 /* HVUIControl+SNB.m */; };
+		047E9C97199821B20032C522 /* HVUITableViewCell+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C96199821B20032C522 /* HVUITableViewCell+SNB.m */; };
+		047E9C9F199821D90032C522 /* HVUIWindow+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C9E199821D90032C522 /* HVUIWindow+SNB.m */; };
+		047E9CA6199845F80032C522 /* SNBCreateBugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9CA4199845F80032C522 /* SNBCreateBugViewController.m */; };
+		047E9CB4199857A40032C522 /* SNBBugCreateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9CB3199857A40032C522 /* SNBBugCreateModel.m */; };
+		047E9CB719985DB60032C522 /* SNB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047E9CB619985DB60032C522 /* SNB.plist */; };
+		048465181A8ECEB400C984F7 /* UIImage+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 048465171A8ECEB400C984F7 /* UIImage+SNB.m */; };
+		0484653B1A93D91F00C984F7 /* SNBLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465391A93D91F00C984F7 /* SNBLogo.png */; };
+		0484653C1A93D91F00C984F7 /* SNBLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484653A1A93D91F00C984F7 /* SNBLogo@2x.png */; };
+		0484653E1A93D93B00C984F7 /* icn_bug.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484653D1A93D93B00C984F7 /* icn_bug.png */; };
+		048465411A93D95300C984F7 /* SNB_EditIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484653F1A93D95300C984F7 /* SNB_EditIcon@2x.png */; };
+		048465421A93D95300C984F7 /* SNB_EditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465401A93D95300C984F7 /* SNB_EditIcon.png */; };
+		048465451A93D96400C984F7 /* SNB_Undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465431A93D96400C984F7 /* SNB_Undo@2x.png */; };
+		048465461A93D96400C984F7 /* SNB_Undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465441A93D96400C984F7 /* SNB_Undo.png */; };
+		048465491A93D98100C984F7 /* SNB_Done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465471A93D98100C984F7 /* SNB_Done@2x.png */; };
+		0484654A1A93D98100C984F7 /* SNB_Done.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465481A93D98100C984F7 /* SNB_Done.png */; };
+		0484654D1A93D99100C984F7 /* SNB_Color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484654B1A93D99100C984F7 /* SNB_Color@2x.png */; };
+		0484654E1A93D99100C984F7 /* SNB_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484654C1A93D99100C984F7 /* SNB_Color.png */; };
+		048465511A93D9B600C984F7 /* SNB_Blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0484654F1A93D9B600C984F7 /* SNB_Blur@2x.png */; };
+		048465521A93D9B600C984F7 /* SNB_Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 048465501A93D9B600C984F7 /* SNB_Blur.png */; };
+		0494A99E19A647C1004AEB31 /* SNBAnnotateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494A99D19A647C1004AEB31 /* SNBAnnotateModel.m */; };
+		04C4B36619A4F8AF00B2CD40 /* SNBTapGesture.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B36519A4F8AF00B2CD40 /* SNBTapGesture.png */; };
+		04C4B36919A5244000B2CD40 /* SNBStateSaverPurgeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B36819A5244000B2CD40 /* SNBStateSaverPurgeOperation.m */; };
+		04C4B36C19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B36B19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.m */; };
+		04C4B36F19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B36E19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.m */; };
+		04C4B37219A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B37119A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.m */; };
+		04C4B37919A5A86400B2CD40 /* SNBAnnotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4B37719A5A86400B2CD40 /* SNBAnnotateViewController.m */; };
+		04C4B38819A5A8EF00B2CD40 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38719A5A8EF00B2CD40 /* Particle.png */; };
+		04C4B38E19A5A91200B2CD40 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38919A5A91200B2CD40 /* Blue.png */; };
+		04C4B38F19A5A91200B2CD40 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38A19A5A91200B2CD40 /* Green.png */; };
+		04C4B39019A5A91200B2CD40 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38B19A5A91200B2CD40 /* Purple.png */; };
+		04C4B39119A5A91200B2CD40 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38C19A5A91200B2CD40 /* Red.png */; };
+		04C4B39219A5A91200B2CD40 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B38D19A5A91200B2CD40 /* Yellow.png */; };
+		04C4B39819A5A9B200B2CD40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C4B39719A5A9B200B2CD40 /* QuartzCore.framework */; };
+		04C4B39C19A5B82400B2CD40 /* SNBAnnotateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C4B39B19A5B82400B2CD40 /* SNBAnnotateViewController.xib */; };
+		04D79A1819A14A8A006B19E8 /* SNBTemplateSysInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79A1619A14A8A006B19E8 /* SNBTemplateSysInfo.m */; };
+		04D79A1919A14A8A006B19E8 /* SNBTemplateSysInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D79A1719A14A8A006B19E8 /* SNBTemplateSysInfo.xib */; };
+		04D79A1D19A14C0A006B19E8 /* SNBTemplateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79A1C19A14C0A006B19E8 /* SNBTemplateModel.m */; };
+		04D79A2319A1613C006B19E8 /* SNBTemplateScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79A2119A1613C006B19E8 /* SNBTemplateScreenShot.m */; };
+		04D79A2419A1613C006B19E8 /* SNBTemplateScreenShotiPhonePortrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D79A2219A1613C006B19E8 /* SNBTemplateScreenShotiPhonePortrait.xib */; };
+		04D79A2819A17B9E006B19E8 /* SNBLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D79A2619A17B9E006B19E8 /* SNBLogo.png */; };
+		04D79A2919A17B9E006B19E8 /* SNBLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D79A2719A17B9E006B19E8 /* SNBLogo@2x.png */; };
+		04D79A3319A18D33006B19E8 /* SNBCoverPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79A3119A18D33006B19E8 /* SNBCoverPage.m */; };
+		04D79A3419A18D33006B19E8 /* SNBCoverPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D79A3219A18D33006B19E8 /* SNBCoverPage.xib */; };
+		04D79A3819A19D8D006B19E8 /* SNBMailSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D79A3719A19D8D006B19E8 /* SNBMailSaver.m */; };
+		04DE6C5219A467E8002A8167 /* SNBTemplateScreenShotiPadLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6C5119A467E8002A8167 /* SNBTemplateScreenShotiPadLandscape.xib */; };
+		04DE6C5419A46A7F002A8167 /* SNBTemplateScreenShotiPadPortrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6C5319A46A7F002A8167 /* SNBTemplateScreenShotiPadPortrait.xib */; };
+		04DE6C5619A46BB1002A8167 /* SNBTemplateScreenShotiPhoneLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6C5519A46BB1002A8167 /* SNBTemplateScreenShotiPhoneLandscape.xib */; };
+		04DE6C5B19A47CC8002A8167 /* SNBCreateBugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DE6C5919A47CC8002A8167 /* SNBCreateBugViewController.xib */; };
+		04DE6C5E19A4840D002A8167 /* SNBStateSaveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6C5D19A4840D002A8167 /* SNBStateSaveOperation.m */; };
+		04DE6C6219A49C15002A8167 /* UIView+SNB.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE6C6119A49C15002A8167 /* UIView+SNB.m */; };
+		04E03CEF19A1C0B000C9B36D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E03CEE19A1C0B000C9B36D /* SystemConfiguration.framework */; };
+		04E2EE1A19A70A51008C8C3E /* SNBScreenShotCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE1819A70A51008C8C3E /* SNBScreenShotCollectionCell.m */; };
+		04E2EE2819A8F971008C8C3E /* SNBBugCreateSummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE2619A8F971008C8C3E /* SNBBugCreateSummaryCell.m */; };
+		04E2EE2919A8F971008C8C3E /* SNBBugCreateSummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E2EE2719A8F971008C8C3E /* SNBBugCreateSummaryCell.xib */; };
+		04E2EE2D19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE2C19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.m */; };
+		04E2EE3319A90B1B008C8C3E /* SNBBugCreateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE3219A90B1B008C8C3E /* SNBBugCreateCell.m */; };
+		04E2EE3819A90F5E008C8C3E /* SNBBugCreateScreenShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE3619A90F5E008C8C3E /* SNBBugCreateScreenShotCell.m */; };
+		04E2EE3919A90F5E008C8C3E /* SNBBugCreateScreenShotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E2EE3719A90F5E008C8C3E /* SNBBugCreateScreenShotCell.xib */; };
+		04E2EE3D19A91036008C8C3E /* SNBBugCreateScreenShotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE3C19A91036008C8C3E /* SNBBugCreateScreenShotModel.m */; };
+		04E2EE4019ABFD59008C8C3E /* SNBStateSaverConsoleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EE3F19ABFD59008C8C3E /* SNBStateSaverConsoleOperation.m */; };
+		04F687DD1A958DD10008D0D6 /* SNB_BlurSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F687DB1A958DD10008D0D6 /* SNB_BlurSelected.png */; };
+		04F687DE1A958DD10008D0D6 /* SNB_BlurSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F687DC1A958DD10008D0D6 /* SNB_BlurSelected@2x.png */; };
+		562706CD19BF4C8A00B9E0BA /* SNBAnnotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 562706CC19BF4C8A00B9E0BA /* SNBAnnotateView.m */; };
+		562706D019BF4CD800B9E0BA /* SNBDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 562706CF19BF4CD800B9E0BA /* SNBDraggableView.m */; };
+		562706D319BF511B00B9E0BA /* SNBStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 562706D219BF511B00B9E0BA /* SNBStroke.m */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7CAD9EC2C7344498B546740A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE145C9D63C4F29941195C5 /* libPods-Tests.a */; };
+		AC3E40AE6DA645A29713C71A /* libPods-ShakeNBake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAE637683B047C18E26C9EC /* libPods-ShakeNBake.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = YOHive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0448CD6119AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverXMLTransactionWriter.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverXMLTransactionWriter.h; sourceTree = "<group>"; };
+		0448CD6219AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverXMLTransactionWriter.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverXMLTransactionWriter.m; sourceTree = "<group>"; };
+		0448CD6519AC5005005C4BDE /* SNBStateTransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateTransactionItem.h; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateTransactionItem/SNBStateTransactionItem.h; sourceTree = "<group>"; };
+		0448CD6619AC5005005C4BDE /* SNBStateTransactionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateTransactionItem.m; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateTransactionItem/SNBStateTransactionItem.m; sourceTree = "<group>"; };
+		0448CD6919AC5D41005C4BDE /* transaction.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = transaction.xml; path = ../Pod/Assets/TransactionTemplates/transaction.xml; sourceTree = "<group>"; };
+		0448CD6B19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverXMLSessionWriter.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverXMLSessionWriter.h; sourceTree = "<group>"; };
+		0448CD6C19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverXMLSessionWriter.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverXMLSessionWriter.m; sourceTree = "<group>"; };
+		0448CD6F19ACD830005C4BDE /* NSURLConnection+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+SNB.h"; path = "../Pod/Classes/events/NSURLConnection/NSURLConnection+SNB.h"; sourceTree = "<group>"; };
+		0448CD7019ACD830005C4BDE /* NSURLConnection+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+SNB.m"; path = "../Pod/Classes/events/NSURLConnection/NSURLConnection+SNB.m"; sourceTree = "<group>"; };
+		044BC07019987E980038BC3B /* SNBPDFSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBPDFSaver.h; path = ../Pod/Classes/model/YOHivePDFSaver/SNBPDFSaver.h; sourceTree = "<group>"; };
+		044BC07119987E980038BC3B /* SNBPDFSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBPDFSaver.m; path = ../Pod/Classes/model/YOHivePDFSaver/SNBPDFSaver.m; sourceTree = "<group>"; };
+		044BC07719988ED80038BC3B /* SNBStateDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateDataItem.h; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateDataItem/SNBStateDataItem.h; sourceTree = "<group>"; };
+		044BC07819988ED80038BC3B /* SNBStateDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateDataItem.m; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateDataItem/SNBStateDataItem.m; sourceTree = "<group>"; };
+		044BC07B1998A04E0038BC3B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		044BC07C1998A04E0038BC3B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		044BC07D1998A04E0038BC3B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		044DC79619B8D52A00FB0FB2 /* icn_bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icn_bug.png; path = ../Pod/Assets/icn_bug.png; sourceTree = "<group>"; };
+		044DC79919B8D57C00FB0FB2 /* HFDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HFDraggableView.h; path = ../Pod/Classes/SharedUtilities/BugView/HFDraggableView.h; sourceTree = "<group>"; };
+		044DC79A19B8D57C00FB0FB2 /* HFDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HFDraggableView.m; path = ../Pod/Classes/SharedUtilities/BugView/HFDraggableView.m; sourceTree = "<group>"; };
+		044DC79B19B8D57C00FB0FB2 /* HFDraggableView+BugImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HFDraggableView+BugImage.h"; path = "../Pod/Classes/SharedUtilities/BugView/HFDraggableView+BugImage.h"; sourceTree = "<group>"; };
+		044DC79C19B8D57C00FB0FB2 /* HFDraggableView+BugImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HFDraggableView+BugImage.m"; path = "../Pod/Classes/SharedUtilities/BugView/HFDraggableView+BugImage.m"; sourceTree = "<group>"; };
+		044DC79F19B8D59300FB0FB2 /* HFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HFImageView.h; path = ../Pod/Classes/SharedUtilities/BugView/HFImageView.h; sourceTree = "<group>"; };
+		044DC7A019B8D59300FB0FB2 /* HFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HFImageView.m; path = ../Pod/Classes/SharedUtilities/BugView/HFImageView.m; sourceTree = "<group>"; };
+		0464B0FB1A362B0B00E942EA /* SNBExternalSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBExternalSaver.h; path = ../Pod/Classes/model/YOHiveBugSaver/SNBExternalSaver/SNBExternalSaver.h; sourceTree = "<group>"; };
+		0464B0FC1A362B0B00E942EA /* SNBExternalSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBExternalSaver.m; path = ../Pod/Classes/model/YOHiveBugSaver/SNBExternalSaver/SNBExternalSaver.m; sourceTree = "<group>"; };
+		0464B0FF1A362F1700E942EA /* SNBExternalBugSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBExternalBugSaver.h; path = ../Pod/Classes/model/SNBExternalBugSaver/SNBExternalBugSaver.h; sourceTree = "<group>"; };
+		0464B1001A362F1700E942EA /* SNBExternalBugSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBExternalBugSaver.m; path = ../Pod/Classes/model/SNBExternalBugSaver/SNBExternalBugSaver.m; sourceTree = "<group>"; };
+		0464B1021A362F4100E942EA /* SNBExternalBugSaverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBExternalBugSaverProtocol.h; path = ../Pod/Classes/model/SNBExternalBugSaver/SNBExternalBugSaverProtocol.h; sourceTree = "<group>"; };
+		047E9C7219981FBB0032C522 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		047E9C7319981FBB0032C522 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		047E9C7419981FBB0032C522 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		047E9C7719981FC90032C522 /* YOHiveAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHiveAppDelegate.h; sourceTree = "<group>"; };
+		047E9C7819981FC90032C522 /* YOHiveAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHiveAppDelegate.m; sourceTree = "<group>"; };
+		047E9C7E199820B40032C522 /* SNBStateSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaver.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaver.h; sourceTree = "<group>"; };
+		047E9C7F199820B40032C522 /* SNBStateSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaver.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaver.m; sourceTree = "<group>"; };
+		047E9C82199820E30032C522 /* SNBStateDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBStateDataProtocol.h; path = ../Pod/Classes/model/YOHiveStateData/SNBStateDataProtocol.h; sourceTree = "<group>"; };
+		047E9C84199821060032C522 /* SNBStateDataStoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateDataStoryBoard.h; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateDataStoryBoard/SNBStateDataStoryBoard.h; sourceTree = "<group>"; };
+		047E9C85199821060032C522 /* SNBStateDataStoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateDataStoryBoard.m; path = ../Pod/Classes/model/YOHiveStateData/YOHiveStateDataStoryBoard/SNBStateDataStoryBoard.m; sourceTree = "<group>"; };
+		047E9C88199821280032C522 /* SynUserMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynUserMock.h; path = ../Pod/Classes/model/YOHiveModel/SynUserMock.h; sourceTree = "<group>"; };
+		047E9C89199821280032C522 /* SynUserMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SynUserMock.m; path = ../Pod/Classes/model/YOHiveModel/SynUserMock.m; sourceTree = "<group>"; };
+		047E9C8A199821280032C522 /* SNBModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBModelProtocol.h; path = ../Pod/Classes/model/YOHiveModel/SNBModelProtocol.h; sourceTree = "<group>"; };
+		047E9C8D1998217E0032C522 /* SNBIntercept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBIntercept.h; path = ../Pod/Classes/events/SNBIntercept.h; sourceTree = "<group>"; };
+		047E9C8E1998217E0032C522 /* SNBIntercept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBIntercept.m; path = ../Pod/Classes/events/SNBIntercept.m; sourceTree = "<group>"; };
+		047E9C911998219C0032C522 /* HVUIControl+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HVUIControl+SNB.h"; path = "../Pod/Classes/events/UIControl/HVUIControl+SNB.h"; sourceTree = "<group>"; };
+		047E9C921998219C0032C522 /* HVUIControl+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HVUIControl+SNB.m"; path = "../Pod/Classes/events/UIControl/HVUIControl+SNB.m"; sourceTree = "<group>"; };
+		047E9C95199821B20032C522 /* HVUITableViewCell+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HVUITableViewCell+SNB.h"; path = "../Pod/Classes/events/UITableViewCell/HVUITableViewCell+SNB.h"; sourceTree = "<group>"; };
+		047E9C96199821B20032C522 /* HVUITableViewCell+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HVUITableViewCell+SNB.m"; path = "../Pod/Classes/events/UITableViewCell/HVUITableViewCell+SNB.m"; sourceTree = "<group>"; };
+		047E9C9D199821D90032C522 /* HVUIWindow+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HVUIWindow+SNB.h"; path = "../Pod/Classes/events/UIWindow/HVUIWindow+SNB.h"; sourceTree = "<group>"; };
+		047E9C9E199821D90032C522 /* HVUIWindow+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HVUIWindow+SNB.m"; path = "../Pod/Classes/events/UIWindow/HVUIWindow+SNB.m"; sourceTree = "<group>"; };
+		047E9CA3199845F80032C522 /* SNBCreateBugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBCreateBugViewController.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBCreateBugViewController.h; sourceTree = "<group>"; };
+		047E9CA4199845F80032C522 /* SNBCreateBugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBCreateBugViewController.m; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBCreateBugViewController.m; sourceTree = "<group>"; };
+		047E9CA9199854730032C522 /* SNBBugSaverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBBugSaverProtocol.h; path = ../Pod/Classes/model/YOHiveBugSaver/SNBBugSaverProtocol.h; sourceTree = "<group>"; };
+		047E9CB2199857A40032C522 /* SNBBugCreateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateModel.h; path = ../Pod/Classes/model/YOHiveBugCreateModel/SNBBugCreateModel.h; sourceTree = "<group>"; };
+		047E9CB3199857A40032C522 /* SNBBugCreateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateModel.m; path = ../Pod/Classes/model/YOHiveBugCreateModel/SNBBugCreateModel.m; sourceTree = "<group>"; };
+		047E9CB5199857C20032C522 /* SNBBugCreateModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateModelProtocol.h; path = ../Pod/Classes/model/YOHiveBugCreateModel/SNBBugCreateModelProtocol.h; sourceTree = "<group>"; };
+		047E9CB619985DB60032C522 /* SNB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SNB.plist; sourceTree = "<group>"; };
+		048465161A8ECEB400C984F7 /* UIImage+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+SNB.h"; path = "../Pod/Classes/categories/UIImage+SNB.h"; sourceTree = "<group>"; };
+		048465171A8ECEB400C984F7 /* UIImage+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SNB.m"; path = "../Pod/Classes/categories/UIImage+SNB.m"; sourceTree = "<group>"; };
+		048465391A93D91F00C984F7 /* SNBLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNBLogo.png; path = ../Pod/Assets/SNBLogo.png; sourceTree = "<group>"; };
+		0484653A1A93D91F00C984F7 /* SNBLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNBLogo@2x.png"; path = "../Pod/Assets/SNBLogo@2x.png"; sourceTree = "<group>"; };
+		0484653D1A93D93B00C984F7 /* icn_bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icn_bug.png; path = ../Pod/Assets/icn_bug.png; sourceTree = "<group>"; };
+		0484653F1A93D95300C984F7 /* SNB_EditIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_EditIcon@2x.png"; path = "../Pod/Assets/SNB_EditIcon@2x.png"; sourceTree = "<group>"; };
+		048465401A93D95300C984F7 /* SNB_EditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_EditIcon.png; path = ../Pod/Assets/SNB_EditIcon.png; sourceTree = "<group>"; };
+		048465431A93D96400C984F7 /* SNB_Undo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_Undo@2x.png"; path = "../Pod/Assets/SNB_Undo@2x.png"; sourceTree = "<group>"; };
+		048465441A93D96400C984F7 /* SNB_Undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_Undo.png; path = ../Pod/Assets/SNB_Undo.png; sourceTree = "<group>"; };
+		048465471A93D98100C984F7 /* SNB_Done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_Done@2x.png"; path = "../Pod/Assets/SNB_Done@2x.png"; sourceTree = "<group>"; };
+		048465481A93D98100C984F7 /* SNB_Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_Done.png; path = ../Pod/Assets/SNB_Done.png; sourceTree = "<group>"; };
+		0484654B1A93D99100C984F7 /* SNB_Color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_Color@2x.png"; path = "../Pod/Assets/SNB_Color@2x.png"; sourceTree = "<group>"; };
+		0484654C1A93D99100C984F7 /* SNB_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_Color.png; path = ../Pod/Assets/SNB_Color.png; sourceTree = "<group>"; };
+		0484654F1A93D9B600C984F7 /* SNB_Blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_Blur@2x.png"; path = "../Pod/Assets/SNB_Blur@2x.png"; sourceTree = "<group>"; };
+		048465501A93D9B600C984F7 /* SNB_Blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_Blur.png; path = ../Pod/Assets/SNB_Blur.png; sourceTree = "<group>"; };
+		0494A99C19A647C1004AEB31 /* SNBAnnotateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBAnnotateModel.h; path = ../Pod/Classes/model/YOHiveAnnotateModel/SNBAnnotateModel.h; sourceTree = "<group>"; };
+		0494A99D19A647C1004AEB31 /* SNBAnnotateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBAnnotateModel.m; path = ../Pod/Classes/model/YOHiveAnnotateModel/SNBAnnotateModel.m; sourceTree = "<group>"; };
+		0494A99F19A647DC004AEB31 /* SNBAnnotateModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBAnnotateModelProtocol.h; path = ../Pod/Classes/model/YOHiveAnnotateModel/SNBAnnotateModelProtocol.h; sourceTree = "<group>"; };
+		04C4B36519A4F8AF00B2CD40 /* SNBTapGesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNBTapGesture.png; path = ../Pod/Assets/SNBTapGesture.png; sourceTree = "<group>"; };
+		04C4B36719A5244000B2CD40 /* SNBStateSaverPurgeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverPurgeOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverPurgeOperation.h; sourceTree = "<group>"; };
+		04C4B36819A5244000B2CD40 /* SNBStateSaverPurgeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverPurgeOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverPurgeOperation.m; sourceTree = "<group>"; };
+		04C4B36A19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverAddPathOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverAddPathOperation.h; sourceTree = "<group>"; };
+		04C4B36B19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverAddPathOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverAddPathOperation.m; sourceTree = "<group>"; };
+		04C4B36D19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverExceptionOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverExceptionOperation.h; sourceTree = "<group>"; };
+		04C4B36E19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverExceptionOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverExceptionOperation.m; sourceTree = "<group>"; };
+		04C4B37019A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverPurgeFilesOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverPurgeFilesOperation.h; sourceTree = "<group>"; };
+		04C4B37119A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverPurgeFilesOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverPurgeFilesOperation.m; sourceTree = "<group>"; };
+		04C4B37619A5A86400B2CD40 /* SNBAnnotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBAnnotateViewController.h; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBAnnotateViewController.h; sourceTree = "<group>"; };
+		04C4B37719A5A86400B2CD40 /* SNBAnnotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBAnnotateViewController.m; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBAnnotateViewController.m; sourceTree = "<group>"; };
+		04C4B38719A5A8EF00B2CD40 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Particle.png; path = ../Pod/Assets/Particle.png; sourceTree = "<group>"; };
+		04C4B38919A5A91200B2CD40 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = ../Pod/Assets/Blue.png; sourceTree = "<group>"; };
+		04C4B38A19A5A91200B2CD40 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Green.png; path = ../Pod/Assets/Green.png; sourceTree = "<group>"; };
+		04C4B38B19A5A91200B2CD40 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Purple.png; path = ../Pod/Assets/Purple.png; sourceTree = "<group>"; };
+		04C4B38C19A5A91200B2CD40 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Red.png; path = ../Pod/Assets/Red.png; sourceTree = "<group>"; };
+		04C4B38D19A5A91200B2CD40 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yellow.png; path = ../Pod/Assets/Yellow.png; sourceTree = "<group>"; };
+		04C4B39319A5A99B00B2CD40 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		04C4B39519A5A9A600B2CD40 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		04C4B39719A5A9B200B2CD40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		04C4B39B19A5B82400B2CD40 /* SNBAnnotateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBAnnotateViewController.xib; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBAnnotateViewController.xib; sourceTree = "<group>"; };
+		04C907C21A05D9F40016C926 /* SynUserMock_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SynUserMock_private.h; path = ../Pod/Classes/model/YOHiveModel/SynUserMock_private.h; sourceTree = "<group>"; };
+		04D79A1519A14A8A006B19E8 /* SNBTemplateSysInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBTemplateSysInfo.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateSysInfo/SNBTemplateSysInfo.h; sourceTree = "<group>"; };
+		04D79A1619A14A8A006B19E8 /* SNBTemplateSysInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBTemplateSysInfo.m; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateSysInfo/SNBTemplateSysInfo.m; sourceTree = "<group>"; };
+		04D79A1719A14A8A006B19E8 /* SNBTemplateSysInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBTemplateSysInfo.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateSysInfo/SNBTemplateSysInfo.xib; sourceTree = "<group>"; };
+		04D79A1A19A14ABC006B19E8 /* SNBTemplateModelProtcol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBTemplateModelProtcol.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/SNBTemplateModelProtcol.h; sourceTree = "<group>"; };
+		04D79A1B19A14C0A006B19E8 /* SNBTemplateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBTemplateModel.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/SNBTemplateModel.h; sourceTree = "<group>"; };
+		04D79A1C19A14C0A006B19E8 /* SNBTemplateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBTemplateModel.m; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/SNBTemplateModel.m; sourceTree = "<group>"; };
+		04D79A1E19A150EB006B19E8 /* SNBTemplateModel_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBTemplateModel_Private.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/SNBTemplateModel_Private.h; sourceTree = "<group>"; };
+		04D79A2019A1613C006B19E8 /* SNBTemplateScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBTemplateScreenShot.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShot.h; sourceTree = "<group>"; };
+		04D79A2119A1613C006B19E8 /* SNBTemplateScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBTemplateScreenShot.m; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShot.m; sourceTree = "<group>"; };
+		04D79A2219A1613C006B19E8 /* SNBTemplateScreenShotiPhonePortrait.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBTemplateScreenShotiPhonePortrait.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShotiPhonePortrait.xib; sourceTree = "<group>"; };
+		04D79A2619A17B9E006B19E8 /* SNBLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNBLogo.png; path = ../Pod/Assets/SNBLogo.png; sourceTree = "<group>"; };
+		04D79A2719A17B9E006B19E8 /* SNBLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNBLogo@2x.png"; path = "../Pod/Assets/SNBLogo@2x.png"; sourceTree = "<group>"; };
+		04D79A3019A18D33006B19E8 /* SNBCoverPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBCoverPage.h; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveCoverPage/SNBCoverPage.h; sourceTree = "<group>"; };
+		04D79A3119A18D33006B19E8 /* SNBCoverPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBCoverPage.m; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveCoverPage/SNBCoverPage.m; sourceTree = "<group>"; };
+		04D79A3219A18D33006B19E8 /* SNBCoverPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBCoverPage.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveCoverPage/SNBCoverPage.xib; sourceTree = "<group>"; };
+		04D79A3619A19D8D006B19E8 /* SNBMailSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBMailSaver.h; path = ../Pod/Classes/model/YOHiveBugSaver/YOHiveMailSaver/SNBMailSaver.h; sourceTree = "<group>"; };
+		04D79A3719A19D8D006B19E8 /* SNBMailSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBMailSaver.m; path = ../Pod/Classes/model/YOHiveBugSaver/YOHiveMailSaver/SNBMailSaver.m; sourceTree = "<group>"; };
+		04DE6C5119A467E8002A8167 /* SNBTemplateScreenShotiPadLandscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBTemplateScreenShotiPadLandscape.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShotiPadLandscape.xib; sourceTree = "<group>"; };
+		04DE6C5319A46A7F002A8167 /* SNBTemplateScreenShotiPadPortrait.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBTemplateScreenShotiPadPortrait.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShotiPadPortrait.xib; sourceTree = "<group>"; };
+		04DE6C5519A46BB1002A8167 /* SNBTemplateScreenShotiPhoneLandscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBTemplateScreenShotiPhoneLandscape.xib; path = ../Pod/Classes/model/YOHivePDFSaver/Templates/YOHiveTemplateScreenShot/SNBTemplateScreenShotiPhoneLandscape.xib; sourceTree = "<group>"; };
+		04DE6C5919A47CC8002A8167 /* SNBCreateBugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBCreateBugViewController.xib; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBCreateBugViewController.xib; sourceTree = "<group>"; };
+		04DE6C5C19A4840D002A8167 /* SNBStateSaveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaveOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaveOperation.h; sourceTree = "<group>"; };
+		04DE6C5D19A4840D002A8167 /* SNBStateSaveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaveOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaveOperation.m; sourceTree = "<group>"; };
+		04DE6C6019A49C15002A8167 /* UIView+SNB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SNB.h"; path = "../Pod/Classes/categories/UIView+SNB.h"; sourceTree = "<group>"; };
+		04DE6C6119A49C15002A8167 /* UIView+SNB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SNB.m"; path = "../Pod/Classes/categories/UIView+SNB.m"; sourceTree = "<group>"; };
+		04E03CEE19A1C0B000C9B36D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04E2EE1719A70A51008C8C3E /* SNBScreenShotCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBScreenShotCollectionCell.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBScreenShotCollectionCell.h; sourceTree = "<group>"; };
+		04E2EE1819A70A51008C8C3E /* SNBScreenShotCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBScreenShotCollectionCell.m; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBScreenShotCollectionCell.m; sourceTree = "<group>"; };
+		04E2EE2519A8F971008C8C3E /* SNBBugCreateSummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateSummaryCell.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateSummaryCell/SNBBugCreateSummaryCell.h; sourceTree = "<group>"; };
+		04E2EE2619A8F971008C8C3E /* SNBBugCreateSummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateSummaryCell.m; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateSummaryCell/SNBBugCreateSummaryCell.m; sourceTree = "<group>"; };
+		04E2EE2719A8F971008C8C3E /* SNBBugCreateSummaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBBugCreateSummaryCell.xib; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateSummaryCell/SNBBugCreateSummaryCell.xib; sourceTree = "<group>"; };
+		04E2EE2B19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateSummaryModel.h; path = ../Pod/Classes/model/YOHiveBugCreateModel/YOHiveBugCreateSummaryModel/SNBBugCreateSummaryModel.h; sourceTree = "<group>"; };
+		04E2EE2C19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateSummaryModel.m; path = ../Pod/Classes/model/YOHiveBugCreateModel/YOHiveBugCreateSummaryModel/SNBBugCreateSummaryModel.m; sourceTree = "<group>"; };
+		04E2EE2E19A90126008C8C3E /* SNBBugCreateModelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateModelCell.h; path = ../Pod/Classes/model/YOHiveBugCreateModel/SNBBugCreateModelCell.h; sourceTree = "<group>"; };
+		04E2EE2F19A90A17008C8C3E /* SNBBugCreateCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateCellDelegate.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/SNBBugCreateCellDelegate.h; sourceTree = "<group>"; };
+		04E2EE3119A90B1B008C8C3E /* SNBBugCreateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateCell.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateCell/SNBBugCreateCell.h; sourceTree = "<group>"; };
+		04E2EE3219A90B1B008C8C3E /* SNBBugCreateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateCell.m; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateCell/SNBBugCreateCell.m; sourceTree = "<group>"; };
+		04E2EE3519A90F5E008C8C3E /* SNBBugCreateScreenShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateScreenShotCell.h; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateScreenShotCell/SNBBugCreateScreenShotCell.h; sourceTree = "<group>"; };
+		04E2EE3619A90F5E008C8C3E /* SNBBugCreateScreenShotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateScreenShotCell.m; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateScreenShotCell/SNBBugCreateScreenShotCell.m; sourceTree = "<group>"; };
+		04E2EE3719A90F5E008C8C3E /* SNBBugCreateScreenShotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SNBBugCreateScreenShotCell.xib; path = ../Pod/Classes/viewControllers/YOHiveCreateBugViewController/YOHiveBugCreateScreenShotCell/SNBBugCreateScreenShotCell.xib; sourceTree = "<group>"; };
+		04E2EE3B19A91036008C8C3E /* SNBBugCreateScreenShotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBBugCreateScreenShotModel.h; path = ../Pod/Classes/model/YOHiveBugCreateModel/YOHiveBugCreateScreenShotModel/SNBBugCreateScreenShotModel.h; sourceTree = "<group>"; };
+		04E2EE3C19A91036008C8C3E /* SNBBugCreateScreenShotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBBugCreateScreenShotModel.m; path = ../Pod/Classes/model/YOHiveBugCreateModel/YOHiveBugCreateScreenShotModel/SNBBugCreateScreenShotModel.m; sourceTree = "<group>"; };
+		04E2EE3E19ABFD59008C8C3E /* SNBStateSaverConsoleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStateSaverConsoleOperation.h; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverConsoleOperation.h; sourceTree = "<group>"; };
+		04E2EE3F19ABFD59008C8C3E /* SNBStateSaverConsoleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStateSaverConsoleOperation.m; path = ../Pod/Classes/model/YOHiveStateSaver/SNBStateSaverConsoleOperation.m; sourceTree = "<group>"; };
+		04F687DB1A958DD10008D0D6 /* SNB_BlurSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SNB_BlurSelected.png; path = ../Pod/Assets/SNB_BlurSelected.png; sourceTree = "<group>"; };
+		04F687DC1A958DD10008D0D6 /* SNB_BlurSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNB_BlurSelected@2x.png"; path = "../Pod/Assets/SNB_BlurSelected@2x.png"; sourceTree = "<group>"; };
+		0AE145C9D63C4F29941195C5 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AA86AF11934DF1A37A8861 /* libPods-YOHive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YOHive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562706CB19BF4C8A00B9E0BA /* SNBAnnotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBAnnotateView.h; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBAnnotateView.h; sourceTree = "<group>"; };
+		562706CC19BF4C8A00B9E0BA /* SNBAnnotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBAnnotateView.m; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBAnnotateView.m; sourceTree = "<group>"; };
+		562706CE19BF4CD800B9E0BA /* SNBDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBDraggableView.h; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBDraggableView.h; sourceTree = "<group>"; };
+		562706CF19BF4CD800B9E0BA /* SNBDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBDraggableView.m; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBDraggableView.m; sourceTree = "<group>"; };
+		562706D119BF511B00B9E0BA /* SNBStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNBStroke.h; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBStroke.h; sourceTree = "<group>"; };
+		562706D219BF511B00B9E0BA /* SNBStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNBStroke.m; path = ../Pod/Classes/viewControllers/YOHiveAnnotateViewController/SNBStroke.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* SynUserMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynUserMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* SynUserMock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SynUserMock-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* SynUserMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SynUserMock-Prefix.pch"; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		71CA91D855C7488B8C0A673C /* Pods-ShakeNBake.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeNBake.xcconfig"; path = "Pods/Pods-ShakeNBake.xcconfig"; sourceTree = "<group>"; };
+		8AAE637683B047C18E26C9EC /* libPods-ShakeNBake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShakeNBake.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D712A9C39134A25B3B5FF40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91599CC68E3A4224B4AF6B47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9B8B7D175B34B3F8F09009B /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C4B39819A5A9B200B2CD40 /* QuartzCore.framework in Frameworks */,
+				04E03CEF19A1C0B000C9B36D /* SystemConfiguration.framework in Frameworks */,
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				AC3E40AE6DA645A29713C71A /* libPods-ShakeNBake.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				7CAD9EC2C7344498B546740A /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0440B084199A9235008C7861 /* SharedUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				044DC79819B8D54A00FB0FB2 /* BugView */,
+			);
+			name = SharedUtilities;
+			sourceTree = "<group>";
+		};
+		0448CD6419AC4FD1005C4BDE /* SNBStateTransactionItem */ = {
+			isa = PBXGroup;
+			children = (
+				0448CD6819AC5D05005C4BDE /* Templates */,
+				0448CD6519AC5005005C4BDE /* SNBStateTransactionItem.h */,
+				0448CD6619AC5005005C4BDE /* SNBStateTransactionItem.m */,
+			);
+			name = SNBStateTransactionItem;
+			sourceTree = "<group>";
+		};
+		0448CD6819AC5D05005C4BDE /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				0448CD6919AC5D41005C4BDE /* transaction.xml */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		0448CD6E19ACD80A005C4BDE /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				0448CD6F19ACD830005C4BDE /* NSURLConnection+SNB.h */,
+				0448CD7019ACD830005C4BDE /* NSURLConnection+SNB.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		044BC06F19987E660038BC3B /* SNBPDFSaver */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A1319A149FC006B19E8 /* Templates */,
+				044BC07019987E980038BC3B /* SNBPDFSaver.h */,
+				044BC07119987E980038BC3B /* SNBPDFSaver.m */,
+			);
+			name = SNBPDFSaver;
+			sourceTree = "<group>";
+		};
+		044BC07319988E3B0038BC3B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04C4B38919A5A91200B2CD40 /* Blue.png */,
+				04C4B38A19A5A91200B2CD40 /* Green.png */,
+				04C4B38B19A5A91200B2CD40 /* Purple.png */,
+				04C4B38C19A5A91200B2CD40 /* Red.png */,
+				04C4B38D19A5A91200B2CD40 /* Yellow.png */,
+				04C4B38719A5A8EF00B2CD40 /* Particle.png */,
+				048465391A93D91F00C984F7 /* SNBLogo.png */,
+				0484653A1A93D91F00C984F7 /* SNBLogo@2x.png */,
+				04C4B36519A4F8AF00B2CD40 /* SNBTapGesture.png */,
+				0484653D1A93D93B00C984F7 /* icn_bug.png */,
+				0484653F1A93D95300C984F7 /* SNB_EditIcon@2x.png */,
+				048465401A93D95300C984F7 /* SNB_EditIcon.png */,
+				048465431A93D96400C984F7 /* SNB_Undo@2x.png */,
+				048465441A93D96400C984F7 /* SNB_Undo.png */,
+				048465471A93D98100C984F7 /* SNB_Done@2x.png */,
+				048465481A93D98100C984F7 /* SNB_Done.png */,
+				0484654B1A93D99100C984F7 /* SNB_Color@2x.png */,
+				0484654C1A93D99100C984F7 /* SNB_Color.png */,
+				0484654F1A93D9B600C984F7 /* SNB_Blur@2x.png */,
+				048465501A93D9B600C984F7 /* SNB_Blur.png */,
+				04F687DB1A958DD10008D0D6 /* SNB_BlurSelected.png */,
+				04F687DC1A958DD10008D0D6 /* SNB_BlurSelected@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		044BC07619988EB20038BC3B /* SNBStateDataItem */ = {
+			isa = PBXGroup;
+			children = (
+				044BC07719988ED80038BC3B /* SNBStateDataItem.h */,
+				044BC07819988ED80038BC3B /* SNBStateDataItem.m */,
+				047E9C82199820E30032C522 /* SNBStateDataProtocol.h */,
+			);
+			name = SNBStateDataItem;
+			sourceTree = "<group>";
+		};
+		044BC07A1998A0130038BC3B /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				044BC07B1998A04E0038BC3B /* SecondViewController.h */,
+				044BC07C1998A04E0038BC3B /* SecondViewController.m */,
+				044BC07D1998A04E0038BC3B /* SecondViewController.xib */,
+			);
+			name = SecondViewController;
+			sourceTree = "<group>";
+		};
+		044DC79819B8D54A00FB0FB2 /* BugView */ = {
+			isa = PBXGroup;
+			children = (
+				044DC79F19B8D59300FB0FB2 /* HFImageView.h */,
+				044DC7A019B8D59300FB0FB2 /* HFImageView.m */,
+				044DC79919B8D57C00FB0FB2 /* HFDraggableView.h */,
+				044DC79A19B8D57C00FB0FB2 /* HFDraggableView.m */,
+				044DC79B19B8D57C00FB0FB2 /* HFDraggableView+BugImage.h */,
+				044DC79C19B8D57C00FB0FB2 /* HFDraggableView+BugImage.m */,
+			);
+			name = BugView;
+			sourceTree = "<group>";
+		};
+		0464B0FA1A362AE500E942EA /* SNBExternalSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0464B0FB1A362B0B00E942EA /* SNBExternalSaver.h */,
+				0464B0FC1A362B0B00E942EA /* SNBExternalSaver.m */,
+			);
+			name = SNBExternalSaver;
+			sourceTree = "<group>";
+		};
+		0464B0FE1A362EF300E942EA /* SNBExternalBugSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0464B0FF1A362F1700E942EA /* SNBExternalBugSaver.h */,
+				0464B1001A362F1700E942EA /* SNBExternalBugSaver.m */,
+				0464B1021A362F4100E942EA /* SNBExternalBugSaverProtocol.h */,
+			);
+			name = SNBExternalBugSaver;
+			sourceTree = "<group>";
+		};
+		047E9C7019981F6A0032C522 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				044BC07A1998A0130038BC3B /* SecondViewController */,
+				047E9C7119981F750032C522 /* MainMenuViewController */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		047E9C7119981F750032C522 /* MainMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C7219981FBB0032C522 /* MainMenuViewController.h */,
+				047E9C7319981FBB0032C522 /* MainMenuViewController.m */,
+				047E9C7419981FBB0032C522 /* MainMenuViewController.xib */,
+			);
+			name = MainMenuViewController;
+			sourceTree = "<group>";
+		};
+		047E9C7B19981FFA0032C522 /* SNB */ = {
+			isa = PBXGroup;
+			children = (
+				04DE6C5F19A49BE9002A8167 /* Categories */,
+				04D79A2519A17B7A006B19E8 /* Resources */,
+				0440B084199A9235008C7861 /* SharedUtilities */,
+				047E9CA11998455E0032C522 /* ViewControllers */,
+				047E9C8C1998216D0032C522 /* Events */,
+				044BC07319988E3B0038BC3B /* Assets */,
+				047E9C7C199820310032C522 /* Model */,
+			);
+			name = SNB;
+			sourceTree = "<group>";
+		};
+		047E9C7C199820310032C522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0464B0FE1A362EF300E942EA /* SNBExternalBugSaver */,
+				0494A99B19A6479A004AEB31 /* SNBAnnotateModel */,
+				044BC06F19987E660038BC3B /* SNBPDFSaver */,
+				047E9CB11998577D0032C522 /* SNBBugeCreateModel */,
+				047E9CA81998543B0032C522 /* SNBBugSaver */,
+				047E9C87199821190032C522 /* SNBModel */,
+				047E9C81199820CD0032C522 /* SNBStateData */,
+				047E9C7D199820450032C522 /* SNBStateSaver */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		047E9C7D199820450032C522 /* SNBStateSaver */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C7E199820B40032C522 /* SNBStateSaver.h */,
+				047E9C7F199820B40032C522 /* SNBStateSaver.m */,
+				04DE6C5C19A4840D002A8167 /* SNBStateSaveOperation.h */,
+				04DE6C5D19A4840D002A8167 /* SNBStateSaveOperation.m */,
+				04C4B36719A5244000B2CD40 /* SNBStateSaverPurgeOperation.h */,
+				04C4B36819A5244000B2CD40 /* SNBStateSaverPurgeOperation.m */,
+				04C4B36A19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.h */,
+				04C4B36B19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.m */,
+				04C4B36D19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.h */,
+				04C4B36E19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.m */,
+				04C4B37019A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.h */,
+				04C4B37119A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.m */,
+				04E2EE3E19ABFD59008C8C3E /* SNBStateSaverConsoleOperation.h */,
+				04E2EE3F19ABFD59008C8C3E /* SNBStateSaverConsoleOperation.m */,
+				0448CD6119AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.h */,
+				0448CD6219AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.m */,
+				0448CD6B19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.h */,
+				0448CD6C19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.m */,
+			);
+			name = SNBStateSaver;
+			sourceTree = "<group>";
+		};
+		047E9C81199820CD0032C522 /* SNBStateData */ = {
+			isa = PBXGroup;
+			children = (
+				0448CD6419AC4FD1005C4BDE /* SNBStateTransactionItem */,
+				044BC07619988EB20038BC3B /* SNBStateDataItem */,
+				047E9C83199820EF0032C522 /* SNBStateDataStoryBoard */,
+			);
+			name = SNBStateData;
+			sourceTree = "<group>";
+		};
+		047E9C83199820EF0032C522 /* SNBStateDataStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C84199821060032C522 /* SNBStateDataStoryBoard.h */,
+				047E9C85199821060032C522 /* SNBStateDataStoryBoard.m */,
+			);
+			name = SNBStateDataStoryBoard;
+			sourceTree = "<group>";
+		};
+		047E9C87199821190032C522 /* SNBModel */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C88199821280032C522 /* SynUserMock.h */,
+				047E9C89199821280032C522 /* SynUserMock.m */,
+				047E9C8A199821280032C522 /* SNBModelProtocol.h */,
+				04C907C21A05D9F40016C926 /* SynUserMock_private.h */,
+			);
+			name = SNBModel;
+			sourceTree = "<group>";
+		};
+		047E9C8C1998216D0032C522 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				0448CD6E19ACD80A005C4BDE /* NSURLConnection */,
+				047E9C9C199821CA0032C522 /* UIWindow */,
+				047E9C94199821A30032C522 /* UITableViewCell */,
+				047E9C901998218E0032C522 /* UIControl */,
+				047E9C8D1998217E0032C522 /* SNBIntercept.h */,
+				047E9C8E1998217E0032C522 /* SNBIntercept.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		047E9C901998218E0032C522 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C911998219C0032C522 /* HVUIControl+SNB.h */,
+				047E9C921998219C0032C522 /* HVUIControl+SNB.m */,
+			);
+			name = UIControl;
+			sourceTree = "<group>";
+		};
+		047E9C94199821A30032C522 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C95199821B20032C522 /* HVUITableViewCell+SNB.h */,
+				047E9C96199821B20032C522 /* HVUITableViewCell+SNB.m */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		047E9C9C199821CA0032C522 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C9D199821D90032C522 /* HVUIWindow+SNB.h */,
+				047E9C9E199821D90032C522 /* HVUIWindow+SNB.m */,
+			);
+			name = UIWindow;
+			sourceTree = "<group>";
+		};
+		047E9CA11998455E0032C522 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C4B37319A5A85100B2CD40 /* SNBAnnotateViewController */,
+				047E9CA2199845B60032C522 /* SNBCreateBugViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		047E9CA2199845B60032C522 /* SNBCreateBugViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE3419A90EFD008C8C3E /* SNBBugCreateScreenShotCell */,
+				04E2EE3019A90AE6008C8C3E /* SNBBugCreateCell */,
+				04E2EE2419A8F935008C8C3E /* SNBBugCreateSummaryCell */,
+				047E9CA3199845F80032C522 /* SNBCreateBugViewController.h */,
+				047E9CA4199845F80032C522 /* SNBCreateBugViewController.m */,
+				04DE6C5919A47CC8002A8167 /* SNBCreateBugViewController.xib */,
+			);
+			name = SNBCreateBugViewController;
+			sourceTree = "<group>";
+		};
+		047E9CA81998543B0032C522 /* SNBBugSaver */ = {
+			isa = PBXGroup;
+			children = (
+				0464B0FA1A362AE500E942EA /* SNBExternalSaver */,
+				047E9CA9199854730032C522 /* SNBBugSaverProtocol.h */,
+				04D79A3519A19D54006B19E8 /* SNBMailSaver */,
+			);
+			name = SNBBugSaver;
+			sourceTree = "<group>";
+		};
+		047E9CB11998577D0032C522 /* SNBBugeCreateModel */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE3A19A9100C008C8C3E /* YOHiveBugCreateScreenShotModel */,
+				04E2EE2A19A8FF98008C8C3E /* YOHiveBugCreateSummaryModel */,
+				047E9CB5199857C20032C522 /* SNBBugCreateModelProtocol.h */,
+				047E9CB2199857A40032C522 /* SNBBugCreateModel.h */,
+				047E9CB3199857A40032C522 /* SNBBugCreateModel.m */,
+				04E2EE2E19A90126008C8C3E /* SNBBugCreateModelCell.h */,
+			);
+			name = SNBBugeCreateModel;
+			sourceTree = "<group>";
+		};
+		0494A99B19A6479A004AEB31 /* SNBAnnotateModel */ = {
+			isa = PBXGroup;
+			children = (
+				0494A99C19A647C1004AEB31 /* SNBAnnotateModel.h */,
+				0494A99D19A647C1004AEB31 /* SNBAnnotateModel.m */,
+				0494A99F19A647DC004AEB31 /* SNBAnnotateModelProtocol.h */,
+			);
+			name = SNBAnnotateModel;
+			sourceTree = "<group>";
+		};
+		04C4B37319A5A85100B2CD40 /* SNBAnnotateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				562706CB19BF4C8A00B9E0BA /* SNBAnnotateView.h */,
+				562706CC19BF4C8A00B9E0BA /* SNBAnnotateView.m */,
+				562706CE19BF4CD800B9E0BA /* SNBDraggableView.h */,
+				562706CF19BF4CD800B9E0BA /* SNBDraggableView.m */,
+				04C4B37619A5A86400B2CD40 /* SNBAnnotateViewController.h */,
+				04C4B37719A5A86400B2CD40 /* SNBAnnotateViewController.m */,
+				04C4B39B19A5B82400B2CD40 /* SNBAnnotateViewController.xib */,
+				562706D119BF511B00B9E0BA /* SNBStroke.h */,
+				562706D219BF511B00B9E0BA /* SNBStroke.m */,
+			);
+			name = SNBAnnotateViewController;
+			sourceTree = "<group>";
+		};
+		04D79A1319A149FC006B19E8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A1A19A14ABC006B19E8 /* SNBTemplateModelProtcol.h */,
+				04D79A1E19A150EB006B19E8 /* SNBTemplateModel_Private.h */,
+				04D79A1B19A14C0A006B19E8 /* SNBTemplateModel.h */,
+				04D79A1C19A14C0A006B19E8 /* SNBTemplateModel.m */,
+				04D79A2A19A18CD3006B19E8 /* SNBCoverPage */,
+				04D79A1F19A160FF006B19E8 /* Screen Shot */,
+				04D79A1419A14A04006B19E8 /* System Info */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		04D79A1419A14A04006B19E8 /* System Info */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A1519A14A8A006B19E8 /* SNBTemplateSysInfo.h */,
+				04D79A1619A14A8A006B19E8 /* SNBTemplateSysInfo.m */,
+				04D79A1719A14A8A006B19E8 /* SNBTemplateSysInfo.xib */,
+			);
+			name = "System Info";
+			sourceTree = "<group>";
+		};
+		04D79A1F19A160FF006B19E8 /* Screen Shot */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A2019A1613C006B19E8 /* SNBTemplateScreenShot.h */,
+				04D79A2119A1613C006B19E8 /* SNBTemplateScreenShot.m */,
+				04DE6C5319A46A7F002A8167 /* SNBTemplateScreenShotiPadPortrait.xib */,
+				04DE6C5519A46BB1002A8167 /* SNBTemplateScreenShotiPhoneLandscape.xib */,
+				04DE6C5119A467E8002A8167 /* SNBTemplateScreenShotiPadLandscape.xib */,
+				04D79A2219A1613C006B19E8 /* SNBTemplateScreenShotiPhonePortrait.xib */,
+			);
+			name = "Screen Shot";
+			sourceTree = "<group>";
+		};
+		04D79A2519A17B7A006B19E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				044DC79619B8D52A00FB0FB2 /* icn_bug.png */,
+				04D79A2619A17B9E006B19E8 /* SNBLogo.png */,
+				04D79A2719A17B9E006B19E8 /* SNBLogo@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		04D79A2A19A18CD3006B19E8 /* SNBCoverPage */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A3019A18D33006B19E8 /* SNBCoverPage.h */,
+				04D79A3119A18D33006B19E8 /* SNBCoverPage.m */,
+				04D79A3219A18D33006B19E8 /* SNBCoverPage.xib */,
+			);
+			name = SNBCoverPage;
+			sourceTree = "<group>";
+		};
+		04D79A3519A19D54006B19E8 /* SNBMailSaver */ = {
+			isa = PBXGroup;
+			children = (
+				04D79A3619A19D8D006B19E8 /* SNBMailSaver.h */,
+				04D79A3719A19D8D006B19E8 /* SNBMailSaver.m */,
+			);
+			name = SNBMailSaver;
+			sourceTree = "<group>";
+		};
+		04DE6C5F19A49BE9002A8167 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04DE6C6019A49C15002A8167 /* UIView+SNB.h */,
+				04DE6C6119A49C15002A8167 /* UIView+SNB.m */,
+				048465161A8ECEB400C984F7 /* UIImage+SNB.h */,
+				048465171A8ECEB400C984F7 /* UIImage+SNB.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		04E2EE1C19A70A5F008C8C3E /* SNBScreenShotCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE1719A70A51008C8C3E /* SNBScreenShotCollectionCell.h */,
+				04E2EE1819A70A51008C8C3E /* SNBScreenShotCollectionCell.m */,
+			);
+			name = SNBScreenShotCollectionCell;
+			sourceTree = "<group>";
+		};
+		04E2EE2419A8F935008C8C3E /* SNBBugCreateSummaryCell */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE2519A8F971008C8C3E /* SNBBugCreateSummaryCell.h */,
+				04E2EE2619A8F971008C8C3E /* SNBBugCreateSummaryCell.m */,
+				04E2EE2719A8F971008C8C3E /* SNBBugCreateSummaryCell.xib */,
+			);
+			name = SNBBugCreateSummaryCell;
+			sourceTree = "<group>";
+		};
+		04E2EE2A19A8FF98008C8C3E /* YOHiveBugCreateSummaryModel */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE2B19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.h */,
+				04E2EE2C19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.m */,
+			);
+			name = YOHiveBugCreateSummaryModel;
+			sourceTree = "<group>";
+		};
+		04E2EE3019A90AE6008C8C3E /* SNBBugCreateCell */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE2F19A90A17008C8C3E /* SNBBugCreateCellDelegate.h */,
+				04E2EE3119A90B1B008C8C3E /* SNBBugCreateCell.h */,
+				04E2EE3219A90B1B008C8C3E /* SNBBugCreateCell.m */,
+			);
+			name = SNBBugCreateCell;
+			sourceTree = "<group>";
+		};
+		04E2EE3419A90EFD008C8C3E /* SNBBugCreateScreenShotCell */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE1C19A70A5F008C8C3E /* SNBScreenShotCollectionCell */,
+				04E2EE3519A90F5E008C8C3E /* SNBBugCreateScreenShotCell.h */,
+				04E2EE3619A90F5E008C8C3E /* SNBBugCreateScreenShotCell.m */,
+				04E2EE3719A90F5E008C8C3E /* SNBBugCreateScreenShotCell.xib */,
+			);
+			name = SNBBugCreateScreenShotCell;
+			sourceTree = "<group>";
+		};
+		04E2EE3A19A9100C008C8C3E /* YOHiveBugCreateScreenShotModel */ = {
+			isa = PBXGroup;
+			children = (
+				04E2EE3B19A91036008C8C3E /* SNBBugCreateScreenShotModel.h */,
+				04E2EE3C19A91036008C8C3E /* SNBBugCreateScreenShotModel.m */,
+			);
+			name = YOHiveBugCreateScreenShotModel;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				91599CC68E3A4224B4AF6B47 /* LICENSE */,
+				8D712A9C39134A25B3B5FF40 /* README.md */,
+				047E9C7B19981FFA0032C522 /* SNB */,
+				6003F593195388D20070C39A /* Example */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				A9B8B7D175B34B3F8F09009B /* Pods-Tests.xcconfig */,
+				71CA91D855C7488B8C0A673C /* Pods-ShakeNBake.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* SynUserMock.app */,
+				6003F5AE195388D20070C39A /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C4B39719A5A9B200B2CD40 /* QuartzCore.framework */,
+				04C4B39519A5A9A600B2CD40 /* GLKit.framework */,
+				04C4B39319A5A99B00B2CD40 /* OpenGLES.framework */,
+				04E03CEE19A1C0B000C9B36D /* SystemConfiguration.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				0AE145C9D63C4F29941195C5 /* libPods-Tests.a */,
+				55AA86AF11934DF1A37A8861 /* libPods-YOHive.a */,
+				8AAE637683B047C18E26C9EC /* libPods-ShakeNBake.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				047E9C7719981FC90032C522 /* YOHiveAppDelegate.h */,
+				047E9C7819981FC90032C522 /* YOHiveAppDelegate.m */,
+				047E9C7019981F6A0032C522 /* View Controllers */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = Example;
+			path = YOHive;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* SynUserMock-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* SynUserMock-Prefix.pch */,
+				047E9CB619985DB60032C522 /* SNB.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* SynUserMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SynUserMock" */;
+			buildPhases = (
+				61A18C6BF65A470A87EF3AC6 /* Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				7284491B44FE4345ABC48815 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynUserMock;
+			productName = YOHive;
+			productReference = 6003F58A195388D20070C39A /* SynUserMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				4E5B1D5A92D1405CB106AE4C /* Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				0E6554754AC54539A1D50733 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = YOHiveTests;
+			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SNB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brett Hamlin";
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SynUserMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* SynUserMock */,
+				6003F5AD195388D20070C39A /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2EE2919A8F971008C8C3E /* SNBBugCreateSummaryCell.xib in Resources */,
+				0484654E1A93D99100C984F7 /* SNB_Color.png in Resources */,
+				04D79A2819A17B9E006B19E8 /* SNBLogo.png in Resources */,
+				04DE6C5B19A47CC8002A8167 /* SNBCreateBugViewController.xib in Resources */,
+				048465451A93D96400C984F7 /* SNB_Undo@2x.png in Resources */,
+				04C4B38819A5A8EF00B2CD40 /* Particle.png in Resources */,
+				04DE6C5219A467E8002A8167 /* SNBTemplateScreenShotiPadLandscape.xib in Resources */,
+				04F687DD1A958DD10008D0D6 /* SNB_BlurSelected.png in Resources */,
+				04C4B39119A5A91200B2CD40 /* Red.png in Resources */,
+				0484653B1A93D91F00C984F7 /* SNBLogo.png in Resources */,
+				04D79A2919A17B9E006B19E8 /* SNBLogo@2x.png in Resources */,
+				0448CD6A19AC5D41005C4BDE /* transaction.xml in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0484654A1A93D98100C984F7 /* SNB_Done.png in Resources */,
+				04C4B39C19A5B82400B2CD40 /* SNBAnnotateViewController.xib in Resources */,
+				048465521A93D9B600C984F7 /* SNB_Blur.png in Resources */,
+				04C4B38E19A5A91200B2CD40 /* Blue.png in Resources */,
+				047E9C7619981FBB0032C522 /* MainMenuViewController.xib in Resources */,
+				04DE6C5419A46A7F002A8167 /* SNBTemplateScreenShotiPadPortrait.xib in Resources */,
+				04C4B38F19A5A91200B2CD40 /* Green.png in Resources */,
+				048465491A93D98100C984F7 /* SNB_Done@2x.png in Resources */,
+				04E2EE3919A90F5E008C8C3E /* SNBBugCreateScreenShotCell.xib in Resources */,
+				0484653C1A93D91F00C984F7 /* SNBLogo@2x.png in Resources */,
+				044BC07F1998A04E0038BC3B /* SecondViewController.xib in Resources */,
+				0484654D1A93D99100C984F7 /* SNB_Color@2x.png in Resources */,
+				048465511A93D9B600C984F7 /* SNB_Blur@2x.png in Resources */,
+				044DC79719B8D52A00FB0FB2 /* icn_bug.png in Resources */,
+				048465421A93D95300C984F7 /* SNB_EditIcon.png in Resources */,
+				04D79A2419A1613C006B19E8 /* SNBTemplateScreenShotiPhonePortrait.xib in Resources */,
+				048465461A93D96400C984F7 /* SNB_Undo.png in Resources */,
+				04D79A3419A18D33006B19E8 /* SNBCoverPage.xib in Resources */,
+				047E9CB719985DB60032C522 /* SNB.plist in Resources */,
+				04C4B39219A5A91200B2CD40 /* Yellow.png in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				04F687DE1A958DD10008D0D6 /* SNB_BlurSelected@2x.png in Resources */,
+				04C4B39019A5A91200B2CD40 /* Purple.png in Resources */,
+				04DE6C5619A46BB1002A8167 /* SNBTemplateScreenShotiPhoneLandscape.xib in Resources */,
+				048465411A93D95300C984F7 /* SNB_EditIcon@2x.png in Resources */,
+				04D79A1919A14A8A006B19E8 /* SNBTemplateSysInfo.xib in Resources */,
+				04C4B36619A4F8AF00B2CD40 /* SNBTapGesture.png in Resources */,
+				0484653E1A93D93B00C984F7 /* icn_bug.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6554754AC54539A1D50733 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5B1D5A92D1405CB106AE4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61A18C6BF65A470A87EF3AC6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7284491B44FE4345ABC48815 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ShakeNBake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448CD6719AC5005005C4BDE /* SNBStateTransactionItem.m in Sources */,
+				0448CD6319AC4F46005C4BDE /* SNBStateSaverXMLTransactionWriter.m in Sources */,
+				04D79A2319A1613C006B19E8 /* SNBTemplateScreenShot.m in Sources */,
+				044DC79E19B8D57C00FB0FB2 /* HFDraggableView+BugImage.m in Sources */,
+				04DE6C5E19A4840D002A8167 /* SNBStateSaveOperation.m in Sources */,
+				04C4B37219A5629400B2CD40 /* SNBStateSaverPurgeFilesOperation.m in Sources */,
+				04C4B36F19A55A1500B2CD40 /* SNBStateSaverExceptionOperation.m in Sources */,
+				047E9C86199821060032C522 /* SNBStateDataStoryBoard.m in Sources */,
+				0464B1011A362F1700E942EA /* SNBExternalBugSaver.m in Sources */,
+				04D79A1D19A14C0A006B19E8 /* SNBTemplateModel.m in Sources */,
+				04E2EE3D19A91036008C8C3E /* SNBBugCreateScreenShotModel.m in Sources */,
+				04E2EE3319A90B1B008C8C3E /* SNBBugCreateCell.m in Sources */,
+				04E2EE2819A8F971008C8C3E /* SNBBugCreateSummaryCell.m in Sources */,
+				047E9CB4199857A40032C522 /* SNBBugCreateModel.m in Sources */,
+				047E9C931998219C0032C522 /* HVUIControl+SNB.m in Sources */,
+				047E9C7519981FBB0032C522 /* MainMenuViewController.m in Sources */,
+				0448CD7119ACD830005C4BDE /* NSURLConnection+SNB.m in Sources */,
+				562706CD19BF4C8A00B9E0BA /* SNBAnnotateView.m in Sources */,
+				0494A99E19A647C1004AEB31 /* SNBAnnotateModel.m in Sources */,
+				04C4B37919A5A86400B2CD40 /* SNBAnnotateViewController.m in Sources */,
+				044BC07219987E980038BC3B /* SNBPDFSaver.m in Sources */,
+				048465181A8ECEB400C984F7 /* UIImage+SNB.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				04E2EE2D19A8FFBB008C8C3E /* SNBBugCreateSummaryModel.m in Sources */,
+				04D79A3319A18D33006B19E8 /* SNBCoverPage.m in Sources */,
+				047E9C8F1998217E0032C522 /* SNBIntercept.m in Sources */,
+				04C4B36C19A529DE00B2CD40 /* SNBStateSaverAddPathOperation.m in Sources */,
+				047E9C9F199821D90032C522 /* HVUIWindow+SNB.m in Sources */,
+				047E9C8B199821280032C522 /* SynUserMock.m in Sources */,
+				04E2EE1A19A70A51008C8C3E /* SNBScreenShotCollectionCell.m in Sources */,
+				047E9C97199821B20032C522 /* HVUITableViewCell+SNB.m in Sources */,
+				04D79A1819A14A8A006B19E8 /* SNBTemplateSysInfo.m in Sources */,
+				044BC07E1998A04E0038BC3B /* SecondViewController.m in Sources */,
+				562706D019BF4CD800B9E0BA /* SNBDraggableView.m in Sources */,
+				047E9C7919981FC90032C522 /* YOHiveAppDelegate.m in Sources */,
+				047E9C80199820B40032C522 /* SNBStateSaver.m in Sources */,
+				04D79A3819A19D8D006B19E8 /* SNBMailSaver.m in Sources */,
+				0464B0FD1A362B0B00E942EA /* SNBExternalSaver.m in Sources */,
+				04DE6C6219A49C15002A8167 /* UIView+SNB.m in Sources */,
+				044DC79D19B8D57C00FB0FB2 /* HFDraggableView.m in Sources */,
+				047E9CA6199845F80032C522 /* SNBCreateBugViewController.m in Sources */,
+				04E2EE4019ABFD59008C8C3E /* SNBStateSaverConsoleOperation.m in Sources */,
+				0448CD6D19AC825C005C4BDE /* SNBStateSaverXMLSessionWriter.m in Sources */,
+				044DC7A119B8D59300FB0FB2 /* HFImageView.m in Sources */,
+				04C4B36919A5244000B2CD40 /* SNBStateSaverPurgeOperation.m in Sources */,
+				044BC07919988ED80038BC3B /* SNBStateDataItem.m in Sources */,
+				04E2EE3819A90F5E008C8C3E /* SNBBugCreateScreenShotCell.m in Sources */,
+				562706D319BF511B00B9E0BA /* SNBStroke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* SynUserMock */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CA91D855C7488B8C0A673C /* Pods-ShakeNBake.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOHive/SynUserMock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "YOHive/SynUserMock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = SynUserMock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CA91D855C7488B8C0A673C /* Pods-ShakeNBake.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YOHive/SynUserMock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "YOHive/SynUserMock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = SynUserMock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B8B7D175B34B3F8F09009B /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YOHive.app/YOHive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B8B7D175B34B3F8F09009B /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YOHive.app/YOHive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "SynUserMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SynUserMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

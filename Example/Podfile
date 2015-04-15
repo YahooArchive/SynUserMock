@@ -1,0 +1,10 @@
+target 'ShakeNBake', :exclusive => true do
+    pod 'Reachability', '~>3.1'
+    pod 'JRSwizzle', '~>1.0'
+end
+
+target 'Tests', :exclusive => true do
+#  pod "ShakeNBake", :path => "../"
+
+  pod 'Kiwi'
+end

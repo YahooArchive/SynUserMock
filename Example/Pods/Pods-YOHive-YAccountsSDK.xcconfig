@@ -1,0 +1,2 @@
+PODS_YOHIVE_YACCOUNTSSDK_HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/YAccountsSDK" "${PODS_ROOT}/Headers/YAccountsSDK"
+PODS_YOHIVE_YACCOUNTSSDK_OTHER_LDFLAGS = -framework CoreGraphics -framework Foundation -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit

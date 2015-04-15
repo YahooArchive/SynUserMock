@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>maxScreenShots</key>
+	<string>8</string>
+	<key>maxNetworkLogs</key>
+	<string>15</string>
+	<key>bugWindowActivator</key>
+	<string>SNBWindowActivatorShake</string>
+	<key>stealthMode</key>
+	<false/>
+	<key>SNBSaver</key>
+	<string>mail</string>
+	<key>Feedback</key>
+	<dict>
+		<key>productID</key>
+		<string>103</string>
+	</dict>
+	<key>Mail</key>
+	<dict>
+		<key>recipients</key>
+		<array/>
+	</dict>
+	<key>Bugzilla</key>
+	<dict>
+		<key>product</key>
+		<string>Sports Mobile</string>
+		<key>cc</key>
+		<string>bhamlin@yahoo-inc.com</string>
+		<key>component</key>
+		<string>Fantasy Sports - iOS</string>
+		<key>target_milestone</key>
+		<string>iOS un-triaged</string>
+		<key>bugtype</key>
+		<string>Defect</string>
+	</dict>
+</dict>
+</plist>
